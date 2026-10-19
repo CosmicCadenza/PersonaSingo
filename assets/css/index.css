@@ -1,13 +1,23 @@
 .button {
-    width: 20%;
-    height: 6vh;
+    width: 30%;
+    height: 9vh;
     position: absolute;
-    left: 40%;
+    left: 37%;
+    font-size: 3.8rem;
+}
+
+.button:hover {
+    background-color: white;
+    border-radius: 15px;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: #258270;
 }
 
 .elizabeth {
@@ -39,5 +49,5 @@ body {
     position: absolute;
     top: 15%;
     left: 25%;
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
