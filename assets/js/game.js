@@ -1,7 +1,7 @@
-window.onload = background();
 let songs = [];
 let played = [];
 let current = {};
+window.onload = background();
 
 function background() {
     songs = fetch("assets/js/songs.json");
