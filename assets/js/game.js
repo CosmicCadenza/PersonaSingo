@@ -3,8 +3,8 @@ let played = [];
 let current = {};
 window.onload = background();
 
-function background() {
-    songs = fetch("assets/js/songs.json");
+async function background() {
+    songs = await fetch("assets/js/songs.json");
     getSong();
 }
 
