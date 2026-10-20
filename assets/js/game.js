@@ -1,10 +1,10 @@
 window.onload = background;
-const songs = [];
-const played = [];
+let songs = [];
+let played = [];
 let current = {};
 
 function background() {
-    songs = fetch("songs.json");
+    songs = fetch("assets/js/songs.json");
     getSong();
 }
 
