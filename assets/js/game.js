@@ -16,6 +16,6 @@ function getSong() {
         document.getElementById("song").innerHTML = current.name;
         document.getElementById("player").src = current.url;
         document.getElementById("past").innerHTML = played.join(", ");
-        document.getElementById("player").click();
+        document.getElementsByClassName("ytmCuedOverlayPlayButton")[0].click();
     }
 }
