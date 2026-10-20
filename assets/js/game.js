@@ -4,7 +4,7 @@ let current = {};
 window.onload = background();
 
 async function background() {
-    songs = await fetch("assets/js/songs.json");
+    songs = await fetch("assets/js/songs.json").json();
     getSong();
 }
 
