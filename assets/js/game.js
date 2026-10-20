@@ -11,8 +11,7 @@ async function background() {
 
 function getSong() {
     if(songs.length > 0) {
-        let index = Math.floor(Math.random()*(songs.length-1));
-        current = songs.splice(index, 1)[0];
+        current = songs.splice(Math.floor(Math.random()*(songs.length)), 1)[0];
         played.push(current.name);
         document.getElementById("song").innerHTML = current.name;
         document.getElementById("player").src = current.url;
