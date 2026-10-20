@@ -1,4 +1,4 @@
-window.onload = background;
+window.onload = background();
 let songs = [];
 let played = [];
 let current = {};
