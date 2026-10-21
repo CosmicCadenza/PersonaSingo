@@ -15,7 +15,6 @@ function getSong() {
         played.push(current.name);
         document.getElementById("song").innerHTML = current.name;
         document.getElementById("player").src = current.url;
-        document.addEventListener("DOMContentLoaded", start());
         document.getElementById("past").innerHTML = played.join(", ");
     }
 }
