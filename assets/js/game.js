@@ -1,9 +1,10 @@
 let songs = [];
 let played = [];
 let current = {};
-window.onload = background();
+window.onload = newGame();
 
-async function background() {
+async function newGame() {
+    played = [];
     let response = await fetch("assets/js/songs.json");
     songs = await response.json();
     getSong();
