@@ -20,5 +20,5 @@ function getSong() {
 }
 
 function start() { 
-    document.getElementById("song").click();
+    document.getElementById("player").click();
 }
