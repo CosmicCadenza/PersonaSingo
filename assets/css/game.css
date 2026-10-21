@@ -1,0 +1,13 @@
+#player {
+    position: fixed;
+    left: 32%;
+    top: 30.5%;
+}
+
+#song {
+    position: fixed;
+    font-size: 2.5rem;
+    text-align: center;
+    left: 36%;
+    top: 16%;
+}

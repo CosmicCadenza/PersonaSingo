@@ -1,14 +1,17 @@
 .button {
-    width: 30%;
-    height: 9vh;
+    width: 33%;
+    height: 9.2vh;
     position: absolute;
-    left: 37%;
+    left: 35%;
     font-size: 3.8rem;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    top: 42%;
 }
 
 .button:hover {
     background-color: white;
-    border-radius: 15px;
 }
 
 a {
