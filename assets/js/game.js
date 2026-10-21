@@ -18,7 +18,3 @@ function getSong() {
         document.getElementById("past").innerHTML = played.join(", ");
     }
 }
-
-function start() { 
-    document.getElementById("player").click();
-}
