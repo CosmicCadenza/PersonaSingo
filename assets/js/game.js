@@ -20,5 +20,5 @@ function getSong() {
 }
 
 function start() { 
-    document.getElementsByClassName("ytmCuedOverlayPlayButton")[0].click();
+    document.getElementById("song").click();
 }
