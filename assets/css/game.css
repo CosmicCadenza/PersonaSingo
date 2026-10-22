@@ -11,3 +11,24 @@
     left: 36%;
     top: 16%;
 }
+
+#new {
+    top: 17%;
+}
+
+#next {
+    top: 25%;
+}
+
+#new, #next {
+    left: 4%;
+    width: 12%;
+    text-align: center;
+    font-size: 1.8rem;
+    height: 5%;
+
+}
+
+#new>a::hover, #next>a::hover {
+    color: #03031d;
+}
