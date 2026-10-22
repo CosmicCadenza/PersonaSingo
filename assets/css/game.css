@@ -6,7 +6,7 @@
 
 #song {
     position: fixed;
-    font-size: 3rem;
+    font-size: 7vh;
     text-align: center;
     left: 18%;
     width: 65%;
@@ -24,7 +24,7 @@
     left: 4%;
     width: 12%;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 3.5vh;
     height: 5%;
 
 }
@@ -34,7 +34,7 @@
 }
 
 #songlist {
-    font-size: 1.8rem;
+    font-size: 5vh;
     position: absolute;
     left: 84%;
     top: 16%;
@@ -52,7 +52,7 @@
 }
 
 #past {
-    font-size: 1rem;
+    font-size: 2.5vh;
     margin-top: 1%;
     margin-left: 3%;
     margin-bottom: 1%;
