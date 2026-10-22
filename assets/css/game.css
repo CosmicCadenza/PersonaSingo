@@ -1,15 +1,14 @@
 #player {
     position: fixed;
     left: 32%;
-    top: 30.5%;
+    top: 24.5%;
 }
 
 #song {
     position: fixed;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
-    left: 36%;
-    top: 16%;
+    left: 34%;
 }
 
 #new {
@@ -48,6 +47,7 @@
     margin-top: 1%;
     margin-left: 3%;
     margin-bottom: 5%;
+    text-decoration: underline;
 }
 
 #past {
@@ -55,4 +55,9 @@
     margin-top: 1%;
     margin-left: 3%;
     margin-bottom: 1%;
+}
+
+#songlist>div {
+    height: 91%;
+    overflow: scroll;
 }
