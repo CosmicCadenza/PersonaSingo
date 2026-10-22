@@ -29,6 +29,6 @@
 
 }
 
-#new>a::hover, #next>a::hover {
+#new>a:hover, #next>a:hover {
     color: #03031d;
 }
