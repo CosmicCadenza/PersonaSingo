@@ -32,3 +32,27 @@
 #new>a:hover, #next>a:hover {
     color: #03031d;
 }
+
+#songlist {
+    font-size: 1.8rem;
+    position: absolute;
+    left: 84%;
+    top: 16%;
+    background-color: rgb(255, 255, 255, 0.3);
+    width: 15.5%;
+    height: 67%;
+    border-radius: 12px;
+}
+
+#pasttitle {
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+#past {
+    font-size: 1rem;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
